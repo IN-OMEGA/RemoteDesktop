@@ -1,0 +1,11 @@
+{
+  "name": "Nexus View",
+  "short_name": "Nexus View",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "background_color": "#080e18",
+  "theme_color": "#080e18",
+  "icons": [{"src": "/assets/nexus-emblem.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any"}]
+}

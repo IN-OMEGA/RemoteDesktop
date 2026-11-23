@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0a101b"><title>RemoteCore — Contrôle à distance</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><a class="brand" href="/"><span class="logo">R<span>↗</span></span>RemoteCore<span class="edition">LOCAL</span></a><div class="header-right"><span class="dot" id="stateDot"></span><span id="connectionState">Hors connexion</span></div></header>
+<main>
+ <section class="intro"><div><p class="eyebrow">VOTRE PC. À PORTÉE DE MAIN.</p><h1>Un bureau, sans distance.</h1><p class="sub">Connectez-vous à votre PC Windows depuis ce navigateur.</p></div><div class="security"><span>◇</span><div>Connexion WebRTC chiffrée<small>Validation obligatoire sur le PC hôte</small></div></div></section>
+ <div class="workspace"><aside>
+  <section class="panel"><div class="panel-title"><span class="number">01</span><h2>Connexion à l’hôte</h2></div><form id="connectForm">
+   <label for="token">Code de connexion</label><input id="token" type="password" placeholder="Copiez le code du PC hôte" autocomplete="off" required maxlength="128"><p class="hint">Le code apparaît dans la fenêtre RemoteCore de Windows.</p>
+   <label for="profile">Profil de diffusion</label><select id="profile"><option value="720p30" selected>720p · 30 FPS — léger</option><option value="1080p60">1080p · cible 60 FPS</option><option value="1080p120">1080p · 120 FPS — expérimental</option><option value="1440p60">1440p · 60 FPS — expérimental</option><option value="4k60">4K · 60 FPS — expérimental</option><option value="4k120">4K · 120 FPS — expérimental</option></select><p class="hint">Résolution plafonnée à celle du PC. Les performances dépendent du matériel.</p>
+   <label class="check"><input type="checkbox" id="audio">Écouter le son du PC</label><p class="hint">Sur ce même PC, laissez le son coupé pour éviter une boucle audio.</p>
+   <button class="primary" id="connect" type="submit">Se connecter <span>↗</span></button></form>
+   <button id="disconnect" class="danger" disabled>Terminer la session</button>
+   <p id="message" role="status" aria-live="polite">Prêt à se connecter.</p>
+  </section>
+  <section class="panel guide"><div class="panel-title"><span class="number">02</span><h2>Prendre les commandes</h2></div><p>Après validation sur le PC, activez les commandes et cliquez dans l’image.</p><label class="check"><input type="checkbox" id="control" disabled>Clavier et souris</label><label class="check"><input type="checkbox" id="gamepad" disabled>Manette XInput <small>ViGEmBus requis sur l’hôte</small></label><div class="shortcut"><kbd>Échap</kbd><span>libérer le clavier et la souris</span></div><p class="hint">Évitez d’activer les commandes si vous regardez le PC depuis ce même PC.</p></section>
+  <div class="local-note"><span>⌁</span> Localhost & réseau local<br><small>Cette version n’ouvre aucun relais Internet.</small></div>
+ </aside>
+ <div class="right"><section class="viewer panel"><div class="viewer-bar"><div><span class="dot" id="liveDot"></span><strong>Bureau distant</strong><span class="tag" id="streamTag">EN ATTENTE</span></div><button id="fullscreen" class="icon-button" title="Plein écran" aria-label="Plein écran">⛶</button></div>
+  <div id="screen" tabindex="0" aria-label="Bureau distant, cliquez pour les commandes"><video id="video" autoplay playsinline></video><div id="empty"><div class="monitor"><span>↗</span></div><h2>Votre bureau vous attend.</h2><p>Entrez le code, connectez-vous, puis acceptez<br>la demande sur le PC hôte.</p><span class="empty-tag">WINDOWS → NAVIGATEUR</span></div><div id="controlBadge" hidden>● COMMANDES ACTIVES · Échap pour libérer</div></div>
+  <div class="viewer-footer"><span id="resolution">Aucun flux vidéo</span><span id="codec">H.264 / WebRTC</span></div></section>
+  <section class="telemetry"><div class="stat"><span>FLUIDITÉ REÇUE</span><strong id="fps">— <small>FPS</small></strong><div class="spark" id="spark"></div></div><div class="stat"><span>ALLER-RETOUR</span><strong id="latency">— <small>ms</small></strong><small class="detail">Canal de commande</small></div><div class="stat"><span>DÉBIT VIDÉO</span><strong id="bitrate">— <small>Mb/s</small></strong><small class="detail" id="packetLoss">Pertes : —</small></div><div class="stat"><span>ENCODAGE</span><strong id="encoder">—</strong><small class="detail" id="encodeTime">En attente de mesures</small></div></section>
+  <section class="panel diagnostics"><div class="panel-title"><h2>Diagnostic en direct</h2><span class="tag">MESURES RÉELLES</span></div><dl><div><dt>Capture</dt><dd id="captureInfo">—</dd></div><div><dt>Hôte</dt><dd id="hostInfo">—</dd></div><div><dt>Audio</dt><dd id="audioInfo">—</dd></div><div><dt>Images</dt><dd id="frameInfo">—</dd></div><div><dt>Chemin mémoire</dt><dd id="copyInfo">—</dd></div><div><dt>Manette</dt><dd id="padInfo">—</dd></div></dl><p id="errorInfo" role="alert"></p><button id="export" class="text-button">↓ Exporter les mesures de la session</button></section>
+ </div></div>
+ <footer>RemoteCore <span>Partage explicite. Contrôle révocable.</span><span>Prototype local · H.264 + Opus</span></footer>
+</main></body></html>
