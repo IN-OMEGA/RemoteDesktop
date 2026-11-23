@@ -1,0 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Me/Documents/GitHub/RemoteDesktop/src/Diagnostics/SystemInfo.cpp" "CMakeFiles/RemoteCore.dir/src/Diagnostics/SystemInfo.cpp.obj" "msvc" "CMakeFiles/RemoteCore.dir/src/Diagnostics/SystemInfo.cpp.obj.d"
+  "C:/Users/Me/Documents/GitHub/RemoteDesktop/src/ScreenCapture/DesktopDuplication.cpp" "CMakeFiles/RemoteCore.dir/src/ScreenCapture/DesktopDuplication.cpp.obj" "msvc" "CMakeFiles/RemoteCore.dir/src/ScreenCapture/DesktopDuplication.cpp.obj.d"
+  "C:/Users/Me/Documents/GitHub/RemoteDesktop/src/main.cpp" "CMakeFiles/RemoteCore.dir/src/main.cpp.obj" "msvc" "CMakeFiles/RemoteCore.dir/src/main.cpp.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

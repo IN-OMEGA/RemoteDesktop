@@ -1,0 +1,4 @@
+C:/Users/Me/Documents/GitHub/RemoteDesktop/build/CMakeFiles/RemoteCore.dir
+C:/Users/Me/Documents/GitHub/RemoteDesktop/build/CMakeFiles/RemoteCoreCapture.dir
+C:/Users/Me/Documents/GitHub/RemoteDesktop/build/CMakeFiles/edit_cache.dir
+C:/Users/Me/Documents/GitHub/RemoteDesktop/build/CMakeFiles/rebuild_cache.dir
