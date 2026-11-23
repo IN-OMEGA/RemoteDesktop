@@ -1,0 +1,27 @@
+{
+  "version": "2.1.0",
+  "sha256": "60dccb8ae3216ff70cc3bf38db48dd4c42a63d3214064d260dc19ce8e42cd760",
+  "uac": [
+    "requireAdministrator"
+  ],
+  "packaged_dashboard_verified": true,
+  "unit_tests_passed": 51,
+  "dashboard": {
+    "leaving_during_bar_animation_cancels_callbacks": true,
+    "progress_bar_shows_half": true,
+    "visible_percent": "50.0 %",
+    "visible_speed": "2.4MiB/s",
+    "journal_hidden_by_default": true,
+    "state_survives_tab_switch": true,
+    "one_stop_for_20_cancel_clicks": true,
+    "cancelled_state": true,
+    "resume_retains_original_arguments": true,
+    "callback_errors": [],
+    "user_downloads_touched": false,
+    "games_launched": 0
+  },
+  "local_download_sha256_test": "passed",
+  "real_aria_cancel_preserves_partial_fixture": "passed",
+  "user_downloads_touched": false,
+  "frozen_exe_executed": false
+}

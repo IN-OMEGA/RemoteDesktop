@@ -1,0 +1,6 @@
+{
+  "repository": "IN-OMEGA/NexusRepacks-Updates",
+  "channel_url": "https://raw.githubusercontent.com/IN-OMEGA/NexusRepacks-Updates/main/nexus-update.json",
+  "manifest_url": "https://github.com/IN-OMEGA/NexusRepacks-Updates/releases/latest/download/nexus-update.json",
+  "public_key": "unqy9anmgZzGn4Ch1p4VsyYEcADhgJ+Tsw5FH9h4l8U="
+}

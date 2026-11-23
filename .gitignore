@@ -1,0 +1,13 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.spec
+!NexusRepacks.spec
+runtime/
+test-results/
+*.log
+third_party/cloudflared/*.exe
+.env
+.env.*
+!.env.example

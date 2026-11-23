@@ -1,0 +1,99 @@
+{
+  "version": "1.5.0",
+  "sha256": "fc7301e795fd717776b347f3f56f8ce07c12e6ff6d11de48b81f19e95ef19f18",
+  "bytes": 24271094,
+  "uac_manifest": [
+    "requireAdministrator"
+  ],
+  "unit_tests_passed": 46,
+  "page_to_file_local_aria_integration": "passed; exact SHA256 match",
+  "public_page_inspection": "python.org/downloads: 40 candidate links; no aria invoked",
+  "confirmation_ui": {
+    "transfers_before_confirmation": 0,
+    "transfers_after_cancel": 0,
+    "transfers_after_20_confirmation_clicks": 1,
+    "callback_errors": [],
+    "games_launched": 0,
+    "reduced_motion_confirmation_tested": true
+  },
+  "navigation_ui": {
+    "button_action_count_for_50_clicks": 1,
+    "dialogs_for_20_play_clicks": 1,
+    "navigation_requests": 120,
+    "actual_page_rebuilds": 3,
+    "final_page": "library",
+    "callback_errors": [],
+    "games_launched": 0
+  },
+  "motion_ui": {
+    "early_alpha": 0.006003579206996568,
+    "early_rows": 0,
+    "late_alpha": 1.0,
+    "late_rows": 8,
+    "dialog_state": "normal",
+    "dialog_children": [
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ]
+    ],
+    "mousewheel_keeps_game": true,
+    "save_warning_shown": true,
+    "tray_hidden": true,
+    "tray_icon_created": true,
+    "tray_restored": true,
+    "animation_samples": 9,
+    "animation_intermediate_values": 8,
+    "callbacks_errors": [],
+    "sources": [
+      "REPACKS"
+    ]
+  },
+  "installed_skills": 19,
+  "games_or_malware_executed": false,
+  "frozen_exe_executed": false
+}

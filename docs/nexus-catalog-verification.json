@@ -1,0 +1,21 @@
+{
+  "sidebar_catalog_button": true,
+  "json_games_loaded": true,
+  "local_art_loaded": true,
+  "search_no_results": true,
+  "disabled_entry_cannot_download": true,
+  "description_displayed": true,
+  "detail_widgets_mapped": true,
+  "download_visible_at_minimum_size": true,
+  "no_transfer_before_download_click": true,
+  "direct_download_without_second_confirmation": true,
+  "download_page_opened": true,
+  "download_sha256_matches": true,
+  "automatic_post_download_scan": true,
+  "sidebar_navigation_back_to_catalog": true,
+  "bad_json_has_visible_error": true,
+  "reload_recovers_from_error": true,
+  "callback_errors": [],
+  "games_launched": 0,
+  "user_downloads_touched": false
+}

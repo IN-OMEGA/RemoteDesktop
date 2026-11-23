@@ -1,0 +1,117 @@
+{
+  "version": "2.0.0",
+  "theme": "Aurora",
+  "sha256": "d32d7d11a6f52c6e3798724c20b24495241a91dbe9a762cb69ff203f14283a92",
+  "bytes": 24101160,
+  "uac_manifest": [
+    "requireAdministrator"
+  ],
+  "unit_tests_passed": 46,
+  "aurora": {
+    "intro_removed": true,
+    "window_visible_after_intro": true,
+    "intro_frame_interval_median_ms": 16.92,
+    "launch_controls_fit_compact_window": true,
+    "reduced_intro_removed": true,
+    "callback_errors": [],
+    "intro_samples": 23,
+    "intro_intermediate_samples": 19,
+    "click_to_skip_leaves_no_overlay": true,
+    "games_launched": 0,
+    "tab_change_during_intro_exit_preserves_opacity": true,
+    "high_resolution_timer_released_at_rest": true
+  },
+  "navigation": {
+    "button_action_count_for_50_clicks": 1,
+    "dialogs_for_20_play_clicks": 1,
+    "navigation_requests": 120,
+    "actual_page_rebuilds": 3,
+    "final_page": "library",
+    "callback_errors": [],
+    "games_launched": 0
+  },
+  "motion": {
+    "early_alpha": 0.2534900129095964,
+    "early_rows": 0,
+    "late_alpha": 1.0,
+    "late_rows": 8,
+    "dialog_state": "normal",
+    "dialog_children": [
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ],
+      [
+        "CTkButton",
+        "place",
+        460,
+        44
+      ]
+    ],
+    "mousewheel_keeps_game": true,
+    "save_warning_shown": true,
+    "tray_hidden": true,
+    "tray_icon_created": true,
+    "tray_restored": true,
+    "animation_samples": 10,
+    "animation_intermediate_values": 9,
+    "callbacks_errors": [],
+    "sources": [
+      "REPACKS"
+    ]
+  },
+  "confirmation": {
+    "transfers_before_confirmation": 0,
+    "transfers_after_cancel": 0,
+    "transfers_after_20_confirmation_clicks": 1,
+    "callback_errors": [],
+    "games_launched": 0,
+    "reduced_motion_confirmation_tested": true
+  },
+  "games_or_malware_executed": false,
+  "frozen_exe_executed": false,
+  "skills_reviewed": 19,
+  "original_brand_assets": [
+    "assets/nexus-aurora.svg",
+    "assets/nexus-aurora.png",
+    "assets/nexus.ico"
+  ]
+}

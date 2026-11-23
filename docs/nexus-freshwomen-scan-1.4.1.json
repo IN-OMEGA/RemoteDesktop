@@ -1,0 +1,19 @@
+{
+  "status": "AUCUN INDICATEUR DÉTECTÉ",
+  "files": 48934,
+  "findings": [
+    {
+      "severity": "info",
+      "rule": "unused-archive",
+      "path": "C:\\Users\\Me\\OneDrive\\Desktop\\REPACKS\\games\\FreshWomen-Season-2-AnkerGames\\FreshWomen-Season-2-AnkerGames.zip",
+      "message": "Archive conservée à côté du jeu : non utilisée pour ce lancement. Analyse séparée depuis Téléchargements."
+    },
+    {
+      "severity": "info",
+      "rule": "unused-archive",
+      "path": "C:\\Users\\Me\\OneDrive\\Desktop\\REPACKS\\games\\FreshWomen-Season-2-AnkerGames\\FreshWomen Season 2\\game\\deluxe_content\\Julia_Statue\\julia_statue.zip",
+      "message": "Archive conservée à côté du jeu : non utilisée pour ce lancement. Analyse séparée depuis Téléchargements."
+    }
+  ],
+  "engine": "Nexus Static 1.1 / règles RenPy-ETW 2026-11-19"
+}

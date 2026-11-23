@@ -1,0 +1,14 @@
+{
+  "intro_removed": true,
+  "window_visible_after_intro": true,
+  "intro_frame_interval_median_ms": 16.92,
+  "launch_controls_fit_compact_window": true,
+  "reduced_intro_removed": true,
+  "callback_errors": [],
+  "intro_samples": 23,
+  "intro_intermediate_samples": 19,
+  "click_to_skip_leaves_no_overlay": true,
+  "games_launched": 0,
+  "tab_change_during_intro_exit_preserves_opacity": true,
+  "high_resolution_timer_released_at_rest": true
+}

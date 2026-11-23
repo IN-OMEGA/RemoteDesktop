@@ -1,0 +1,21 @@
+{
+  "leaving_during_bar_animation_cancels_callbacks": true,
+  "progress_bar_shows_half": true,
+  "visible_percent": "50.0 %",
+  "visible_speed": "2.4MiB/s",
+  "journal_hidden_by_default": true,
+  "source_links": [
+    "https://repack-games.com/",
+    "https://ankergames.net/games-list",
+    "https://fitgirl-repacks.site/"
+  ],
+  "state_survives_tab_switch": true,
+  "torrent_picker_works_while_downloading": true,
+  "torrent_selection_preserves_active_transfer": true,
+  "one_stop_for_20_cancel_clicks": true,
+  "cancelled_state": true,
+  "resume_retains_original_arguments": true,
+  "callback_errors": [],
+  "user_downloads_touched": false,
+  "games_launched": 0
+}

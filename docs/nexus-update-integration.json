@@ -1,0 +1,14 @@
+{
+  "public_release": "2.4.0",
+  "signed_background_download": true,
+  "original_preserved_until_exit": true,
+  "replacement_after_process_exit": true,
+  "backup_preserved": true,
+  "installer_log": "Update installed.",
+  "downloaded_exe_executed": false,
+  "statuses": [
+    "Checking for updates\u2026",
+    "Update 2.4.0 \u00b7 downloading\u2026",
+    "Version 2.4.0 ready \u00b7 update & restart"
+  ]
+}

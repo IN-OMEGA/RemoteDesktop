@@ -1,0 +1,9 @@
+{
+  "button_action_count_for_50_clicks": 1,
+  "dialogs_for_20_play_clicks": 1,
+  "navigation_requests": 120,
+  "actual_page_rebuilds": 3,
+  "final_page": "library",
+  "callback_errors": [],
+  "games_launched": 0
+}

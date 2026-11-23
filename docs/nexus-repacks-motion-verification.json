@@ -1,0 +1,68 @@
+{
+  "early_alpha": 0.2534900129095964,
+  "early_rows": 0,
+  "late_alpha": 1.0,
+  "late_rows": 8,
+  "dialog_state": "normal",
+  "dialog_children": [
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ],
+    [
+      "CTkButton",
+      "place",
+      460,
+      44
+    ]
+  ],
+  "mousewheel_keeps_game": true,
+  "save_warning_shown": true,
+  "tray_hidden": true,
+  "tray_icon_created": true,
+  "tray_restored": true,
+  "animation_samples": 10,
+  "animation_intermediate_values": 9,
+  "callbacks_errors": [],
+  "sources": [
+    "REPACKS"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "transfers_before_confirmation": 0,
+  "transfers_after_cancel": 0,
+  "transfers_after_20_confirmation_clicks": 1,
+  "callback_errors": [],
+  "games_launched": 0,
+  "reduced_motion_confirmation_tested": true
+}

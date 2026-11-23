@@ -1,0 +1,18 @@
+{
+  "visible_notice_does_not_wait_for_busy_transfer": true,
+  "download_progress_displayed": true,
+  "install_disabled_until_verified": true,
+  "normal_actions_blocked_by_update_notice": true,
+  "closing_prompt_keeps_update_visible": 1,
+  "error_provides_retry": true,
+  "new_release_reuses_same_prompt": true,
+  "ready_has_update_and_restart": true,
+  "running_download_is_paused_once": true,
+  "does_not_close_before_worker_stops": true,
+  "one_install_and_restart": true,
+  "old_window_closed_once": true,
+  "paused_transfer_saved_for_new_version": true,
+  "callback_errors": [],
+  "real_games_launched": 0,
+  "real_updates_installed": 0
+}

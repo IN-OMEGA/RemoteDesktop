@@ -1,0 +1,19 @@
+{
+  "library_skip_button_present": true,
+  "protection_skip_button_present": true,
+  "one_dialog_for_repeated_requests": true,
+  "no_launch_before_confirmation": true,
+  "confirmation_buttons_visible": true,
+  "cancel_never_launches": true,
+  "window_close_never_launches": true,
+  "one_launch_after_repeated_confirmation": true,
+  "launch_uses_standard_user_helper": true,
+  "scan_report_preserved": true,
+  "launch_marked_unverified": true,
+  "unrelated_download_not_interrupted": true,
+  "current_scan_cancel_requested": true,
+  "waits_for_scan_to_stop_before_launch": true,
+  "no_scanner_or_hashing_on_override": true,
+  "callback_errors": [],
+  "real_games_launched": 0
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": "example-adventure",
+      "title": "Example Adventure",
+      "description": "Write the full game description here.\n\nYou can use multiple paragraphs. Include the edition, language and installation notes if needed.",
+      "icon": "catalog-assets/example-icon.png",
+      "image": "catalog-assets/example-cover.png",
+      "download_url": "https://downloads.example.com/example-adventure.zip",
+      "folder": "Example Adventure",
+      "filename": "example-adventure.zip",
+      "referrer": "",
+      "genre": "Adventure",
+      "size": "8.5 GB",
+      "enabled": false
+    },
+    {
+      "id": "example-strategy",
+      "title": "Example Strategy",
+      "description": "Second example using a minimal direct download. Replace the URL with the actual file URL, not the game's web page. Set enabled to true when ready.",
+      "icon": "catalog-assets/example-icon.png",
+      "image": "catalog-assets/example-cover.png",
+      "download_url": "https://downloads.example.com/example-strategy.7z",
+      "genre": "Strategy",
+      "size": "5 GB",
+      "enabled": false
+    },
+    {
+      "id": "example-torrent",
+      "title": "Example Magnet",
+      "description": "Magnet link example. Replace the entire download_url with your real magnet link. These sample entries do not download anything while enabled is false.",
+      "icon": "catalog-assets/example-icon.png",
+      "image": "catalog-assets/example-cover.png",
+      "download_url": "magnet:?xt=urn:btih:0000000000000000000000000000000000000000&dn=Example",
+      "folder": "Example Magnet",
+      "genre": "Action",
+      "size": "10 GB",
+      "enabled": false
+    }
+  ]
+}
